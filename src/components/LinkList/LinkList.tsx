@@ -58,7 +58,11 @@ const LinkList: React.FC = () => {
     <div>
       {links.map((item) => (
         <div className="mb-3">
-          <LinkListItem url={item.url} title={item.title}></LinkListItem>
+          <LinkListItem
+            key={item.title}
+            url={item.url}
+            title={item.title}
+          ></LinkListItem>
         </div>
       ))}
     </div>
