@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="bg-gradient-to-br from-neutral-800 to-neutral-900">
+    <div className="bg-cover bg-neutral-900">
       <Layout>
         <div className="mb-8">
           <Card />
