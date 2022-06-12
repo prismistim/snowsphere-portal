@@ -1,4 +1,4 @@
-import icon from "../assets/image/rb_icon_me_medium.png"
+import icon from "/rb_icon_me_medium.png"
 import ProfileDataList from "./ProfileDataList"
 
 const Card: React.FC = () => {
