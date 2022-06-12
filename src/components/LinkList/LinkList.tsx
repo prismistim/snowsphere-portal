@@ -9,7 +9,7 @@ const LinkListItem = (props: LinkList) => {
       <a
         href={props.url}
         target="_blank"
-        className="inline-block bg-gradient-to-r from-indigo-400 to-teal-600 bg-clip-text py-3 text-3xl font-medium text-neutral-400 decoration-neutral-500/40 underline-offset-4 opacity-50 transition duration-500 hover:text-transparent hover:opacity-100"
+        className="inline-block bg-gradient-to-r from-indigo-400 to-teal-600 bg-clip-text py-3 text-3xl font-medium text-neutral-400 decoration-neutral-500/40 underline-offset-4 opacity-50 transition duration-500 hover:scale-105 hover:text-transparent hover:opacity-100"
       >
         {/* <span className="opacity-30">{">"} </span> */}
         {props.title}
@@ -30,7 +30,7 @@ const LinkList: React.FC = () => {
     },
     {
       url: "https://instagram.com/snowsphere",
-      title: "Instagram"
+      title: "Instagram",
     },
     {
       url: "https://misskey.io/@snowsphere",
