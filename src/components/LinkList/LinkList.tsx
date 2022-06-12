@@ -29,6 +29,10 @@ const LinkList: React.FC = () => {
       title: "Twitter",
     },
     {
+      url: "https://instagram.com/snowsphere",
+      title: "Instagram"
+    },
+    {
       url: "https://misskey.io/@snowsphere",
       title: "Misskey",
     },
