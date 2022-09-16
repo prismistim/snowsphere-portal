@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="content bg-neutral-900 bg-cover">
+    <div className="content bg-neutral-900 bg-cover h-screen">
       <Layout>
         <div className="mb-8">
           <Card />
