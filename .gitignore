@@ -1,5 +1,5 @@
-.yarn/
-!.yarn/releases/*
+.yarn/cache
+.yarn/*.gz
 
 # Logs
 logs
