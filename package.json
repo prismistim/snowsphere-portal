@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "copy:json": "node ./copyJson.js",
+    "build": "yarn copy:json && tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

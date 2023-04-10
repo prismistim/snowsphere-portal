@@ -1,3 +1,5 @@
+import indexJson from '../../assets/index.json'
+
 type LinkList = {
   url: string
   title: string
@@ -19,40 +21,7 @@ const LinkListItem = (props: LinkList) => {
 }
 
 const LinkList: React.FC = () => {
-  const links: LinkList[] = [
-    {
-      url: "https://snowsphere.net/",
-      title: "Portfolio",
-    },
-    {
-      url: "https://twitter.com/prismist_m",
-      title: "Twitter",
-    },
-    {
-      url: "https://instagram.com/snowsphere",
-      title: "Instagram",
-    },
-    {
-      url: "https://misskey.io/@snowsphere",
-      title: "Misskey",
-    },
-    {
-      url: "https://github.com/prismistim",
-      title: "GitHub",
-    },
-    {
-      url: "https://soundcloud.com/snowsphere_sc",
-      title: "SoundCloud",
-    },
-    {
-      url: "https://last.fm/prismist_m",
-      title: "Last.fm",
-    },
-    {
-      url: "https://www.youtube.com/channel/UCAqMZ1QWysfFHTGcgh4CkYw",
-      title: "YouTube",
-    },
-  ]
+  const links: LinkList[] = indexJson.links
 
   return (
     <div>
