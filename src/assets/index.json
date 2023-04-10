@@ -1,0 +1,60 @@
+{
+  "url": "https://portal.snowsphere.net/",
+  "profile": {
+    "name": "snowsphere",
+    "birth": {
+      "month": 8,
+      "day": 8
+    },
+    "location": {
+      "country": "Japan",
+      "prefecture": "Gifu"
+    },
+    "job": {
+      "title": "Web Engineer",
+      "level": "🐣"
+    }
+  },
+  "links": [
+    {
+      "url": "https://snowsphere.net/",
+      "title": "Portfolio"
+    },
+    {
+      "url": "https://twitter.com/prismist_m",
+      "title": "Twitter"
+    },
+    {
+      "url": "https://instagram.com/snowsphere",
+      "title": "Instagram"
+    },
+    {
+      "url": "https://misskey.io/@snowsphere",
+      "title": "Misskey.io"
+    },
+    {
+      "url": "https://github.com/prismistim",
+      "title": "GitHub"
+    },
+    {
+      "url": "https://soundcloud.com/snowsphere_sc",
+      "title": "SoundCloud"
+    },
+    {
+      "url": "https://last.fm/prismist_m",
+      "title": "Last.fm"
+    },
+    {
+      "url": "https://www.youtube.com/@snowsphere",
+      "title": "YouTube"
+    },
+    {
+      "url": "https://bandcamp.com/snowsphere",
+      "title": "Bandcamp (user)"
+    },
+    {
+      "url": "https://aoi-wakusei.bandcamp.com/",
+      "title": "Bandcamp (artist)"
+    }
+  ]
+}
