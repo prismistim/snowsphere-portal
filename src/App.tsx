@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Card from "./components/Card"
 import Layout from "./components/layouts/LayoutMain"
+import FediverseLinkList from "./components/FediverseLinkList/LinkList"
 import LinkList from "./components/LinkList/LinkList"
 import Footer from "./components/Footer"
 
@@ -13,6 +14,8 @@ function App() {
         <div className="mb-8">
           <Card />
         </div>
+        <div className="mb-4 animate-pulse border-b border-indigo-800"></div>
+        <FediverseLinkList></FediverseLinkList>
         <div className="mb-4 animate-pulse border-b border-indigo-800"></div>
         <LinkList></LinkList>
         <Footer></Footer>
