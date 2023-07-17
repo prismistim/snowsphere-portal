@@ -21,7 +21,7 @@ const LinkListItem = (props: LinkList) => {
 }
 
 const LinkList: React.FC = () => {
-  const links: LinkList[] = indexJson.links
+  const links: LinkList[] = indexJson.links.filter((item) => !item.category.includes('fediverse'))
 
   return (
     <div>
