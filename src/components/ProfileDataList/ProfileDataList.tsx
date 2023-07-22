@@ -6,10 +6,10 @@ type ProfileData = {
 const ProfileDataListItem = (props: ProfileData) => {
   return (
     <>
-      <div className="text-2xl font-light text-neutral-100 opacity-30">
+      <div className="text-xl font-light text-neutral-100 opacity-30">
         {props.label}:
       </div>
-      <div className="text-4xl font-medium text-neutral-300 opacity-80">
+      <div className="text-2xl font-medium text-neutral-300 opacity-80">
         {props.data}
       </div>
     </>
