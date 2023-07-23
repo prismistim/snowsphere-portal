@@ -15,7 +15,12 @@ const LinkListItem = (props: LinkList) => {
 
   const writeToClipboard = (text: string) => {
     navigator.clipboard.writeText(text)
+    showToast()
+  }
+
+  const showToast = () => {
     context.setIsShow(true)
+    setTimeout(() => context.setIsShow(false), 5000)
   }
 
   return (
@@ -43,9 +48,9 @@ const LinkList: React.FC = () => {
   )
 
   return (
-    <div>
+    <div className="space-y-4 mb-4">
       {links.map((item) => (
-        <div className="mb-3">
+        <div className="">
           <LinkListItem
             key={item.title}
             url={item.url}
