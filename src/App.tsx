@@ -18,9 +18,9 @@ const App: React.FC = () => {
           <div className="mb-8">
             <Card />
           </div>
-          <div className="mb-4 animate-pulse border-b border-indigo-800"></div>
+          <div className="mb-4 animate-pulse border-b border-neutral-700"></div>
           <FediverseLinkList></FediverseLinkList>
-          <div className="mb-4 animate-pulse border-b border-indigo-800"></div>
+          <div className="mb-4 animate-pulse border-b border-neutral-700"></div>
           <LinkList></LinkList>
           <Footer></Footer>
         </Layout>

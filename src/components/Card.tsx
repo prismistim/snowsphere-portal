@@ -1,4 +1,4 @@
-import icon from "/rb_icon_me_medium.png"
+import icon from "../assets/images/rb_icon_me_medium.png"
 import ProfileDataList from "./ProfileDataList"
 import ShareDataPanel from "./ShareDataPanel/ShareDataPanel"
 import { useState } from "react"
