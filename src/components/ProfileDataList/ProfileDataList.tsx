@@ -3,14 +3,22 @@ type ProfileData = {
   data: string
 }
 
+const isBirthDay = () => {
+  const today = new Date()
+  return today.getMonth() === 7 && today.getDate() === 8
+}
+
 const ProfileDataListItem = (props: ProfileData) => {
   return (
     <>
       <div className="text-xl font-light text-neutral-100 opacity-30">
         {props.label}:
       </div>
-      <div className="text-2xl font-medium text-neutral-300 opacity-80">
-        {props.data}
+      <div className={`${ props.label === 'birth' && isBirthDay() ? 'opacity-100 animate-bounce bg-clip-text text-transparent text-4xl font-bold' : 'text-2xl font-medium opacity-80'}`}>
+        <span className={`${ props.label === 'birth' && isBirthDay() ? 'bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-cyan-500' : 'text-neutral-300'}`}>
+          {props.data}
+        </span>
+        { props.label === 'birth' && isBirthDay() && <span className="text-white">🎂</span> }
       </div>
     </>
   )
