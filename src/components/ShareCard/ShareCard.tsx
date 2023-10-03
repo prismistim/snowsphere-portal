@@ -30,7 +30,7 @@ export const ShareCard = () => {
                 </div>
                 <div className='pb-4 flex justify-center'>
                   <div className='h-36 bg-white p-4 rounded-md'>
-                    <QRCode size={112} value={`https://portal.snowsphere.net/?share_id=${generateHash()}`}></QRCode>
+                    <QRCode size={112} value={`https://portal.snowsphere.net/?share_id=${generateHash()}&utm_source=qrcode`}></QRCode>
                   </div>
                 </div>
               </div>
