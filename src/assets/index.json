@@ -51,6 +51,11 @@
       "title": "X"
     },
     {
+      "url": "https://bsky.app/profile/snowsphere.bsky.social",
+      "category": ["social"],
+      "title": "Bluesky"
+    },
+    {
       "url": "https://instagram.com/snowsphere",
       "category": ["social", "photo"],
       "title": "Instagram"
