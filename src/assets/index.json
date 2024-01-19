@@ -46,6 +46,16 @@
       "title": "Portfolio"
     },
     {
+      "url": "https://blog.snowsphere.net/",
+      "category": ["website"],
+      "title": "Blog"
+    },
+    {
+      "url": "mailto:info@snowsphere.net",
+      "category": ["email"],
+      "title": "Email"
+    },
+    {
       "url": "https://x.com/prismist_m",
       "category": ["social"],
       "title": "X"
@@ -56,14 +66,24 @@
       "title": "Bluesky"
     },
     {
+      "url": "https://www.threads.net/@snowsphere",
+      "category": ["social"],
+      "title": "Threads"
+    },
+    {
       "url": "https://instagram.com/snowsphere",
       "category": ["social", "photo"],
       "title": "Instagram"
     },
     {
-      "url": "https://www.threads.net/@snowsphere",
-      "category": ["social"],
-      "title": "Threads"
+      "url": "https://www.youtube.com/@snowsphere",
+      "category": ["social", "video"],
+      "title": "YouTube"
+    },
+    {
+      "url": "https://www.twitch.tv/snowsphere",
+      "category": ["social", "live"],
+      "title": "Twitch"
     },
     {
       "url": "https://github.com/prismistim",
@@ -79,11 +99,6 @@
       "url": "https://last.fm/user/Prismist-M",
       "category": ["social", "music"],
       "title": "Last.fm"
-    },
-    {
-      "url": "https://www.youtube.com/@snowsphere",
-      "category": ["social", "video"],
-      "title": "YouTube"
     },
     {
       "url": "https://bandcamp.com/snowsphere",
