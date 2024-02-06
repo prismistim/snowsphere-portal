@@ -360,7 +360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brillout/json-serializer@npm:^0.5.8":
+"@brillout/json-serializer@npm:^0.5.1, @brillout/json-serializer@npm:^0.5.8":
   version: 0.5.8
   resolution: "@brillout/json-serializer@npm:0.5.8"
   checksum: 7d737a8a20c04c27a41ecf0c5f8bd60031b7f58d80f76f7bf9719f237b2bcd8dafb4495771638a7546cdadac08c629c3e08be801ea0dd14b70ecf9213e6400fa
@@ -3343,6 +3343,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"isbot-fast@npm:1.2.0":
+  version: 1.2.0
+  resolution: "isbot-fast@npm:1.2.0"
+  checksum: 1b44c5e101f92def994a67c41f54993847d1d1641ccb2b3722b3c7e97e044c2b6e39bf217b283562a08127446069281fe819c16a06b2f937c6ac70d44dcb971e
+  languageName: node
+  linkType: hard
+
 "isexe@npm:^2.0.0":
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
@@ -4362,6 +4369,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-streaming@npm:^0.3.19":
+  version: 0.3.20
+  resolution: "react-streaming@npm:0.3.20"
+  dependencies:
+    "@brillout/import": ^0.2.3
+    "@brillout/json-serializer": ^0.5.1
+    isbot-fast: 1.2.0
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: dbfb4344914c7070203cd05c5338ada6bb1f1c9ef55b1b908b7253f983b573f3c0e21905e89aa6a84085fd6510a50aec4b07f0f1ff7830cfac4bded787e4df83
+  languageName: node
+  linkType: hard
+
 "react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -4798,6 +4819,7 @@ __metadata:
     tailwindcss: ^3.3.3
     typescript: ^5.2.2
     vike: ^0.4.160
+    vike-react: ^0.4.4
     vite: ^4.4.9
     vite-plugin-image-optimizer: ^1.1.7
     vite-plugin-vercel: ^4.0.0
@@ -5364,6 +5386,20 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
+  languageName: node
+  linkType: hard
+
+"vike-react@npm:^0.4.4":
+  version: 0.4.4
+  resolution: "vike-react@npm:0.4.4"
+  dependencies:
+    react-streaming: ^0.3.19
+  peerDependencies:
+    react: 18.x.x
+    react-dom: 18.x.x
+    vike: ^0.4.160
+    vite: ^4.3.8 || ^5.0.10
+  checksum: a3e03a2087cf7cb05b93a8ff407d79da83e376663574321267be10086d3d0138400739f49e1b867d38d42c82e6415d99b96f8fa4fdc39e7319ed705366d14247
   languageName: node
   linkType: hard
 
