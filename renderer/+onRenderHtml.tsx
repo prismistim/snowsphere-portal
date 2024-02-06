@@ -8,6 +8,8 @@ import { PageLayout } from './PageLayout'
 
 async function onRenderHtml(pageContext) {
   const { Page } = pageContext
+
+
   const viewHtml = dangerouslySkipEscape(
     renderToString(
       <PageLayout>

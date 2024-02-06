@@ -7,6 +7,8 @@ import Footer from "../../components/Footer"
 import Toast from "../../components/Toast"
 import ShareCard from "../../components/ShareCard/ShareCard"
 
+import '../../assets/style/index.css'
+
 import { ToastContext, useIsShow } from "../../hooks/isShowToast"
 import { ShareCardContext, useIsShow as useIsShowShareCard  } from "../../hooks/isShowShareCard"
 
