@@ -1,14 +1,14 @@
 import React, { createContext, useContext, useState } from "react"
-import Card from "./components/Card"
-import Layout from "./components/layouts/LayoutMain"
-import FediverseLinkList from "./components/FediverseLinkList/LinkList"
-import LinkList from "./components/LinkList/LinkList"
-import Footer from "./components/Footer"
-import Toast from "./components/Toast"
-import ShareCard from "./components/ShareCard/ShareCard"
+import Card from "../../components/Card"
+import Layout from "../../components/layouts/LayoutMain"
+import FediverseLinkList from "../../components/FediverseLinkList/LinkList"
+import LinkList from "../../components/LinkList/LinkList"
+import Footer from "../../components/Footer"
+import Toast from "../../components/Toast"
+import ShareCard from "../../components/ShareCard/ShareCard"
 
-import { ToastContext, useIsShow } from "./hooks/isShowToast"
-import { ShareCardContext, useIsShow as useIsShowShareCard  } from "./hooks/isShowShareCard"
+import { ToastContext, useIsShow } from "../../hooks/isShowToast"
+import { ShareCardContext, useIsShow as useIsShowShareCard  } from "../../hooks/isShowShareCard"
 
 const App: React.FC = () => {
   const toastContext = useIsShow()

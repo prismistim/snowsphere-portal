@@ -2,7 +2,9 @@ module.exports = {
   dark: true,
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./pages/**/*.{vue,js,ts,jsx,tsx}",
+    "./renderer/**/*.{vue,js,ts,jsx,tsx}",
+    "./components/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
     fontFamily: {

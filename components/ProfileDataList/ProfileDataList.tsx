@@ -47,7 +47,7 @@ const ProfileDataList = () => {
   return (
     <div>
       {profileDatas.map((item) => (
-        <div className="mb-3">
+        <div key={item.label} className="mb-3">
           <ProfileDataListItem
             key={item.label}
             label={item.label}

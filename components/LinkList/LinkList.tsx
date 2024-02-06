@@ -26,8 +26,8 @@ const LinkList: React.FC = () => {
 
   return (
     <div>
-      {links.map((item) => (
-        <div className="mb-3">
+      {links.map((item, index) => (
+        <div key={item.title} className="mb-3">
           <LinkListItem
             key={item.title}
             url={item.url}
