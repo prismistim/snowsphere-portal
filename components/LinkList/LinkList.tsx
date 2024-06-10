@@ -1,3 +1,4 @@
+import React from "react"
 import indexJson from "../../assets/index.json"
 
 type LinkList = {

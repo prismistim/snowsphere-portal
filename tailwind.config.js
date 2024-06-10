@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   dark: true,
   content: [
     "./index.html",

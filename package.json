@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "snowsphere-portal",
   "private": true,
   "version": "0.0.0",
@@ -9,35 +10,35 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.24",
-    "@types/react-dom": "^18.2.8",
-    "@typescript-eslint/eslint-plugin": "^6.7.4",
-    "@typescript-eslint/parser": "^6.7.4",
-    "@vite-plugin-vercel/vike": "^4.0.0",
-    "@vitejs/plugin-react": "^4.1.0",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.50.0",
-    "eslint-config-prettier": "^8.10.0",
-    "eslint-plugin-react": "^7.33.2",
-    "postcss": "^8.4.31",
-    "prettier": "^3.0.3",
-    "prettier-plugin-tailwindcss": "^0.5.4",
-    "react-qr-code": "^2.0.12",
-    "sharp": "^0.32.6",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^5.2.2",
-    "vike": "^0.4.160",
-    "vike-react": "^0.4.4",
-    "vite": "^4.4.9",
-    "vite-plugin-image-optimizer": "^1.1.7",
-    "vite-plugin-vercel": "^4.0.0"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "@vite-plugin-vercel/vike": "^7.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.4.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.2",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.1",
+    "prettier-plugin-tailwindcss": "^0.6.2",
+    "react-qr-code": "^2.0.14",
+    "sharp": "^0.33.4",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vike": "^0.4.174",
+    "vike-react": "^0.4.13",
+    "vite": "^5.2.13",
+    "vite-plugin-image-optimizer": "^1.1.8",
+    "vite-plugin-vercel": "^7.0.0"
   },
   "volta": {
-    "node": "18.15.0",
+    "node": "20.14.0",
     "yarn": "3.5.0"
   },
   "packageManager": "yarn@3.5.0"
