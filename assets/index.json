@@ -17,6 +17,7 @@
   },
   "links": [
     {
+      "id": "misskey_io",
       "url": "https://misskey.io/@snowsphere",
       "category": [
         "fediverse",
@@ -29,6 +30,7 @@
       }
     },
     {
+      "id": "mstdn_jp",
       "url": "https://mstdn.jp/@snowsphere",
       "category": [
         "fediverse",
@@ -41,6 +43,7 @@
       }
     },
     {
+      "id": "submarin",
       "url": "https://submarin.online/@snowsphere",
       "category": [
         "fediverse",
@@ -53,6 +56,7 @@
       }
     },
     {
+      "id": "portfolio",
       "url": "https://snowsphere.net/",
       "category": ["website"],
       "title": "Portfolio",
@@ -62,6 +66,7 @@
       }
     },
     {
+      "id": "blog",
       "url": "https://blog.snowsphere.net/",
       "category": ["website"],
       "title": "Blog",
@@ -71,6 +76,7 @@
       }
     },
     {
+      "id": "mail",
       "url": "mailto:info@snowsphere.net",
       "category": ["email"],
       "title": "Email",
@@ -80,6 +86,7 @@
       }
     },
     {
+      "id": "x",
       "url": "https://x.com/prismist_m",
       "category": ["social"],
       "title": "X",
@@ -89,6 +96,7 @@
       }
     },
     {
+      "id": "bsky",
       "url": "https://bsky.app/profile/snowsphere.bsky.social",
       "category": ["social"],
       "title": "Bluesky",
@@ -98,6 +106,7 @@
       }
     },
     {
+      "id": "discord",
       "url": "https://discord.com/invite/b5NPGVT7",
       "category": ["social", "game"],
       "title": "Discord",
@@ -107,6 +116,7 @@
       }
     },
     {
+      "id": "threads",
       "url": "https://www.threads.net/@snowsphere",
       "category": ["social"],
       "title": "Threads",
@@ -116,6 +126,7 @@
       }
     },
     {
+      "id": "ig",
       "url": "https://instagram.com/snowsphere",
       "category": ["social", "photo"],
       "title": "Instagram",
@@ -125,6 +136,7 @@
       }
     },
     {
+      "id": "line",
       "url": "https://lin.ee/UF57iME",
       "category": ["social"],
       "title": "LINE",
@@ -134,6 +146,7 @@
       }
     },
     {
+      "id": "yt",
       "url": "https://www.youtube.com/@snowsphere",
       "category": ["social", "video"],
       "title": "YouTube",
@@ -143,6 +156,7 @@
       }
     },
     {
+      "id": "twitch",
       "url": "https://www.twitch.tv/snowsphere",
       "category": ["social", "live"],
       "title": "Twitch",
@@ -152,6 +166,7 @@
       }
     },
     {
+      "id": "gh",
       "url": "https://github.com/prismistim",
       "category": ["social", "dev"],
       "title": "GitHub",
@@ -161,6 +176,7 @@
       }
     },
     {
+      "id": "keybase",
       "url": "https://keybase.io/snowsphere_",
       "category": ["social", "dev", "pgp"],
       "title": "Keybase",
@@ -170,6 +186,7 @@
       }
     },
     {
+      "id": "sc",
       "url": "https://soundcloud.com/snowsphere_sc",
       "category": ["social", "music"],
       "title": "SoundCloud",
@@ -179,6 +196,7 @@
       }
     },
     {
+      "id": "last_fm",
       "url": "https://last.fm/user/Prismist-M",
       "category": ["social", "music"],
       "title": "Last.fm",
@@ -188,6 +206,7 @@
       }
     },
     {
+      "id": "bc_user",
       "url": "https://bandcamp.com/snowsphere",
       "category": ["social", "music"],
       "title": "Bandcamp (user)",
@@ -197,6 +216,7 @@
       }
     },
     {
+      "id": "bc_artist",
       "url": "https://aoi-wakusei.bandcamp.com/",
       "category": ["social", "music"],
       "title": "Bandcamp (artist)",

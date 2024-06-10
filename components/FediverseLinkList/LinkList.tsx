@@ -3,11 +3,12 @@ import React, { useContext, useState } from "react"
 import { ToastContext } from "../../hooks/isShowToast"
 
 type LinkList = {
+  id: string
   url: string
   title: string
 }
 
-const LinkListItem = (props: LinkList) => {
+const LinkListItem = (props: Omit<LinkList, 'id'>) => {
   const urlText = props.url.split("/").reverse()
   const userName = `${urlText[0]}@${urlText[1]}`
 
@@ -50,9 +51,8 @@ const LinkList: React.FC = () => {
   return (
     <div className="space-y-4 mb-4">
       {links.map((item) => (
-        <div className="">
+        <div key={item.id} className="">
           <LinkListItem
-            key={item.title}
             url={item.url}
             title={item.title}
           ></LinkListItem>
