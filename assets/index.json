@@ -21,39 +21,45 @@
       "url": "https://misskey.io/@snowsphere",
       "category": [
         "fediverse",
-        "misskey"
+        "misskey",
+        "social"
       ],
       "title": "Misskey.io",
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": true
     },
     {
       "id": "mstdn_jp",
       "url": "https://mstdn.jp/@snowsphere",
       "category": [
         "fediverse",
-        "misskey"
+        "misskey",
+        "social"
       ],
       "title": "mstdn.jp",
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "submarin",
       "url": "https://submarin.online/@snowsphere",
       "category": [
         "fediverse",
-        "mastodon"
+        "mastodon",
+        "social"
       ],
       "title": "Submarin",
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "portfolio",
@@ -63,7 +69,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": true 
     },
     {
       "id": "blog",
@@ -73,7 +80,8 @@
       "rss": {
         "hasRss": true,
         "url": "https://blog.snowsphere.net/rss.xml"
-      }
+      },
+      "isPrimary": true
     },
     {
       "id": "mail",
@@ -83,7 +91,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": true
     },
     {
       "id": "x",
@@ -93,7 +102,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": true
     },
     {
       "id": "bsky",
@@ -103,17 +113,19 @@
       "rss": {
         "hasRss": true,
         "url": "https://bsky.app/profile/snowsphere.bsky.social/rss"
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "discord",
       "url": "https://discord.com/invite/b5NPGVT7",
-      "category": ["social", "game"],
+      "category": ["social", "voip", "game"],
       "title": "Discord",
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "threads",
@@ -123,7 +135,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "ig",
@@ -133,17 +146,19 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": true
     },
     {
       "id": "line",
       "url": "https://lin.ee/UF57iME",
-      "category": ["social"],
+      "category": ["social", "voip"],
       "title": "LINE",
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "yt",
@@ -153,7 +168,19 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
+    },
+    {
+      "id": "fevimovie",
+      "url": "https://fedimovie.com/c/snowsphere_pt/videos",
+      "category": ["social", "fediverse", "video", "live"],
+      "title": "FediMovie",
+      "rss": {
+        "hasRss": false,
+        "url": ""
+      },
+      "isPrimary": false
     },
     {
       "id": "twitch",
@@ -163,7 +190,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "gh",
@@ -173,7 +201,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "keybase",
@@ -183,7 +212,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "sc",
@@ -193,7 +223,8 @@
       "rss": {
         "hasRss": true,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "last_fm",
@@ -203,7 +234,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "bc_user",
@@ -213,7 +245,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     },
     {
       "id": "bc_artist",
@@ -223,7 +256,8 @@
       "rss": {
         "hasRss": false,
         "url": ""
-      }
+      },
+      "isPrimary": false
     }
   ]
 }
