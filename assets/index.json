@@ -19,10 +19,10 @@
     {
       "id": "misskey_io",
       "url": "https://misskey.io/@snowsphere",
-      "category": [
+      "category": "social", 
+      "tag": [
         "fediverse",
-        "misskey",
-        "social"
+        "misskey"
       ],
       "title": "Misskey.io",
       "rss": {
@@ -34,10 +34,10 @@
     {
       "id": "mstdn_jp",
       "url": "https://mstdn.jp/@snowsphere",
-      "category": [
+      "category": "social",
+      "tag": [
         "fediverse",
-        "misskey",
-        "social"
+        "misskey"
       ],
       "title": "mstdn.jp",
       "rss": {
@@ -49,10 +49,10 @@
     {
       "id": "submarin",
       "url": "https://submarin.online/@snowsphere",
-      "category": [
+      "category": "social",
+      "tag": [
         "fediverse",
-        "mastodon",
-        "social"
+        "mastodon"
       ],
       "title": "Submarin",
       "rss": {
@@ -64,7 +64,8 @@
     {
       "id": "portfolio",
       "url": "https://snowsphere.net/",
-      "category": ["website"],
+      "category": "own_website",
+      "tag": [],
       "title": "Portfolio",
       "rss": {
         "hasRss": false,
@@ -86,7 +87,8 @@
     {
       "id": "mail",
       "url": "mailto:info@snowsphere.net",
-      "category": ["email"],
+      "category": "contact",
+      "tag": [],
       "title": "Email",
       "rss": {
         "hasRss": false,
@@ -97,7 +99,8 @@
     {
       "id": "x",
       "url": "https://x.com/prismist_m",
-      "category": ["social"],
+      "category": "social",
+      "tag": [],
       "title": "X",
       "rss": {
         "hasRss": false,
@@ -108,7 +111,8 @@
     {
       "id": "bsky",
       "url": "https://bsky.app/profile/snowsphere.bsky.social",
-      "category": ["social"],
+      "category": "social",
+      "tag": [],
       "title": "Bluesky",
       "rss": {
         "hasRss": true,
@@ -119,7 +123,8 @@
     {
       "id": "discord",
       "url": "https://discord.com/invite/b5NPGVT7",
-      "category": ["social", "voip", "game"],
+      "category": "social",
+      "tag": ["voip", "game"],
       "title": "Discord",
       "rss": {
         "hasRss": false,
@@ -130,7 +135,8 @@
     {
       "id": "threads",
       "url": "https://www.threads.net/@snowsphere",
-      "category": ["social"],
+      "category": "social",
+      "tag": [],
       "title": "Threads",
       "rss": {
         "hasRss": false,
@@ -141,7 +147,8 @@
     {
       "id": "ig",
       "url": "https://instagram.com/snowsphere",
-      "category": ["social", "photo"],
+      "category": "media",
+      "tag": ["photo"],
       "title": "Instagram",
       "rss": {
         "hasRss": false,
@@ -152,7 +159,8 @@
     {
       "id": "line",
       "url": "https://lin.ee/UF57iME",
-      "category": ["social", "voip"],
+      "category": "social",
+      "tag": ["voip"],
       "title": "LINE",
       "rss": {
         "hasRss": false,
@@ -163,7 +171,8 @@
     {
       "id": "yt",
       "url": "https://www.youtube.com/@snowsphere",
-      "category": ["social", "video"],
+      "category": "media",
+      "tag": ["video"],
       "title": "YouTube",
       "rss": {
         "hasRss": false,
@@ -174,7 +183,8 @@
     {
       "id": "fevimovie",
       "url": "https://fedimovie.com/c/snowsphere_pt/videos",
-      "category": ["social", "fediverse", "video", "live"],
+      "category": "media",
+      "tag": ["fediverse", "video", "live"],
       "title": "FediMovie",
       "rss": {
         "hasRss": false,
@@ -185,7 +195,8 @@
     {
       "id": "twitch",
       "url": "https://www.twitch.tv/snowsphere",
-      "category": ["social", "live"],
+      "category": "media",
+      "tag": ["video", "live"],
       "title": "Twitch",
       "rss": {
         "hasRss": false,
@@ -196,7 +207,8 @@
     {
       "id": "gh",
       "url": "https://github.com/prismistim",
-      "category": ["social", "dev"],
+      "category": "dev",
+      "tag": [],
       "title": "GitHub",
       "rss": {
         "hasRss": false,
@@ -207,7 +219,8 @@
     {
       "id": "keybase",
       "url": "https://keybase.io/snowsphere_",
-      "category": ["social", "dev", "pgp"],
+      "category": "social",
+      "tag": ["pgp"],
       "title": "Keybase",
       "rss": {
         "hasRss": false,
@@ -218,7 +231,8 @@
     {
       "id": "sc",
       "url": "https://soundcloud.com/snowsphere_sc",
-      "category": ["social", "music"],
+      "category": "media",
+      "tag": ["music"],
       "title": "SoundCloud",
       "rss": {
         "hasRss": true,
@@ -229,7 +243,8 @@
     {
       "id": "last_fm",
       "url": "https://last.fm/user/Prismist-M",
-      "category": ["social", "music"],
+      "category": "media",
+      "tag": ["music"],
       "title": "Last.fm",
       "rss": {
         "hasRss": false,
@@ -240,7 +255,8 @@
     {
       "id": "bc_user",
       "url": "https://bandcamp.com/snowsphere",
-      "category": ["social", "music"],
+      "category": "media",
+      "tag": ["music"],
       "title": "Bandcamp (user)",
       "rss": {
         "hasRss": false,
@@ -251,7 +267,8 @@
     {
       "id": "bc_artist",
       "url": "https://aoi-wakusei.bandcamp.com/",
-      "category": ["social", "music"],
+      "category": "media",
+      "tag": ["music"],
       "title": "Bandcamp (artist)",
       "rss": {
         "hasRss": false,
