@@ -11,10 +11,14 @@ import '../../assets/style/index.css'
 
 import { ToastContext, useIsShow } from "../../hooks/isShowToast"
 import { ShareCardContext, useIsShow as useIsShowShareCard  } from "../../hooks/isShowShareCard"
+import indexJson from '../../assets/index.json'
+import { LinkListItem } from "../../types/link"
 
 const App: React.FC = () => {
   const toastContext = useIsShow()
   const shareCardContext = useIsShowShareCard()
+
+  const links = indexJson.links as LinkListItem[]
 
   return (
     <ToastContext.Provider value={toastContext}>
@@ -28,7 +32,7 @@ const App: React.FC = () => {
             <div className="mb-4 animate-pulse border-b border-neutral-700"></div>
             <FediverseLinkList></FediverseLinkList>
             <div className="mb-4 animate-pulse border-b border-neutral-700"></div>
-            <LinkList></LinkList>
+            <LinkList items={links}></LinkList>
             <Footer></Footer>
           </Layout>
           { toastContext.isShow && <Toast></Toast> }

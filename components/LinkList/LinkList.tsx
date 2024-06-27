@@ -1,11 +1,11 @@
 import React from "react"
-import type { LinkListItem } from "../../types/link"
+import type { LinkListItem as TypeLinkListItem } from "../../types/link"
 
 type Props = {
-  items: LinkListItem[]
+  items: TypeLinkListItem[]
 }
 
-const LinkListItem = (props: { data: LinkListItem }) => {
+const LinkListItem = (props: { data: TypeLinkListItem }) => {
   return (
     <a
       href={props.data.url}

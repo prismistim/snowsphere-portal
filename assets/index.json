@@ -76,7 +76,8 @@
     {
       "id": "blog",
       "url": "https://blog.snowsphere.net/",
-      "category": ["website"],
+      "category": ["own_website"],
+      "tag": [],
       "title": "Blog",
       "rss": {
         "hasRss": true,

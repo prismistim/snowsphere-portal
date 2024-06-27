@@ -1,6 +1,7 @@
 import indexJson from "../../assets/index.json"
 import React, { useContext, useState } from "react"
 import { ToastContext } from "../../hooks/isShowToast"
+import { LinkListItem } from "../../types/link"
 
 type LinkList = {
   id: string
@@ -44,9 +45,10 @@ const LinkListItem = (props: Omit<LinkList, 'id'>) => {
 }
 
 const LinkList: React.FC = () => {
-  const links: LinkList[] = indexJson.links.filter((item) =>
-    item.category.includes("fediverse"),
-  )
+  const links: LinkList[] = indexJson.links.filter((item) => {
+    const tags = item.tag as LinkListItem['tag']
+    return tags.includes('fediverse')
+  })
 
   return (
     <div className="space-y-4 mb-4">
