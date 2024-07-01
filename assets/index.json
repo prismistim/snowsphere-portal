@@ -76,7 +76,7 @@
     {
       "id": "blog",
       "url": "https://blog.snowsphere.net/",
-      "category": ["own_website"],
+      "category": "own_website",
       "tag": [],
       "title": "Blog",
       "rss": {
@@ -101,7 +101,7 @@
       "id": "x",
       "url": "https://x.com/prismist_m",
       "category": "social",
-      "tag": [],
+      "tag": ["messaging"],
       "title": "X",
       "rss": {
         "hasRss": false,
@@ -125,7 +125,7 @@
       "id": "discord",
       "url": "https://discord.com/invite/b5NPGVT7",
       "category": "social",
-      "tag": ["voip", "game"],
+      "tag": ["voip", "messaging", "game"],
       "title": "Discord",
       "rss": {
         "hasRss": false,
@@ -137,7 +137,7 @@
       "id": "threads",
       "url": "https://www.threads.net/@snowsphere",
       "category": "social",
-      "tag": [],
+      "tag": ["messaging"],
       "title": "Threads",
       "rss": {
         "hasRss": false,
@@ -149,7 +149,7 @@
       "id": "ig",
       "url": "https://instagram.com/snowsphere",
       "category": "media",
-      "tag": ["photo"],
+      "tag": ["photo", "messaging"],
       "title": "Instagram",
       "rss": {
         "hasRss": false,
@@ -161,7 +161,7 @@
       "id": "line",
       "url": "https://lin.ee/UF57iME",
       "category": "social",
-      "tag": ["voip"],
+      "tag": ["messaging", "voip"],
       "title": "LINE",
       "rss": {
         "hasRss": false,

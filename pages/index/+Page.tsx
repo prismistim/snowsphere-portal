@@ -26,13 +26,25 @@ const App: React.FC = () => {
         <div className="content bg-neutral-950 bg-cover min-h-screen">
           { shareCardContext.isShow && <ShareCard></ShareCard> }
           <Layout>
-            <div className="mb-8">
+            <div className="mb-6">
               <Card />
             </div>
-            <div className="mb-4 animate-pulse border-b border-neutral-700"></div>
-            <FediverseLinkList></FediverseLinkList>
-            <div className="mb-4 animate-pulse border-b border-neutral-700"></div>
-            <LinkList items={links}></LinkList>
+            <div>
+              <LinkList items={links.filter((item) => ['own_website', 'contact'].includes(item.category))}></LinkList>
+            </div>
+            <div className="mt-4 animate-pulse border-b border-neutral-700"></div>
+            <div className="mt-6">
+              <div className="text-2xl text-neutral-400 font-bold">Social</div>
+              <LinkList items={links.filter((item) => item.category === 'social').sort((a, b) => a.isPrimary ? -1 : 1)}></LinkList>
+            </div>
+            <div className="mt-6">
+              <div className="text-2xl text-neutral-400 font-bold">Dev.</div>
+              <LinkList items={links.filter((item) => item.category === 'dev').sort((a, b) => a.isPrimary ? -1 : 1)}></LinkList>
+            </div>
+            <div className="mt-6">
+              <div className="text-2xl text-neutral-400 font-bold">Media</div>
+              <LinkList items={links.filter((item) => item.category === 'media').sort((a, b) => a.isPrimary ? -1 : 1)}></LinkList>
+            </div>
             <Footer></Footer>
           </Layout>
           { toastContext.isShow && <Toast></Toast> }

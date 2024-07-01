@@ -1,10 +1,12 @@
+import React from 'react'
+
 const Footer = () => {
   const getYear = () => {
     return new Date().getFullYear()
   }
 
   return (
-    <footer className="mt-2 flex justify-between border-t border-neutral-800 py-2">
+    <footer className="mt-6 flex justify-between border-t border-neutral-800 py-2">
       <div className=" text-neutral-600">©{getYear()} snowsphere</div>
       <a
         href="/index.json"
