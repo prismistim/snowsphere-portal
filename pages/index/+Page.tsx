@@ -38,7 +38,7 @@ const App: React.FC = () => {
               <LinkList items={links.filter((item) => item.category === 'social').sort((a, b) => a.isPrimary ? -1 : 1)}></LinkList>
             </div>
             <div className="mt-6">
-              <div className="text-2xl text-neutral-400 font-bold">Dev.</div>
+              <div className="text-2xl text-neutral-400 font-bold">Development</div>
               <LinkList items={links.filter((item) => item.category === 'dev').sort((a, b) => a.isPrimary ? -1 : 1)}></LinkList>
             </div>
             <div className="mt-6">
