@@ -1,40 +1,33 @@
 import React from "react"
-import indexJson from "../../assets/index.json"
+import type { LinkListItem as TypeLinkListItem } from "../../types/link"
 
-type LinkList = {
-  id: string
-  url: string
-  title: string
+type Props = {
+  items: TypeLinkListItem[]
 }
 
-const LinkListItem = (props: Omit<LinkList, 'id'>) => {
+const LinkListItem = (props: { data: TypeLinkListItem }) => {
   return (
     <a
-      href={props.url}
+      href={props.data.url}
       target="_blank"
-      className="mt-2 inline-block bg-gradient-to-r from-indigo-400 to-teal-600 bg-clip-text text-2xl font-medium text-neutral-400 decoration-neutral-500/40 underline-offset-4 opacity-50 transition duration-500 hover:scale-105 hover:text-transparent hover:opacity-100"
+      className="inline-block w-full px-4 py-3 ring-1 hover:ring-0 ring-neutral-400/50 rounded-md hover:bg-gradient-to-r from-pink-400/50 to-indigo-600/50 text-2xl font-medium text-neutral-400 hover:text-neutral-100 decoration-neutral-500/40 underline-offset-4 opacity-50 transition duration-200 hover:scale-105 hover:text-transparent hover:opacity-100"
     >
-      {props.title}
+      {props.data.title}
     </a>
   )
 }
 
-const LinkList: React.FC = () => {
-  const links: LinkList[] = indexJson.links.filter(
-    (item) => !item.category.includes("fediverse"),
-  )
-
+const LinkList: React.FC<Props> = (props) => {
   return (
-    <>
-      {links.map((item) => (
-        <div key={item.id} className="mb-3">
+    <div className="mt-4 grid md:grid-cols-3 gap-4">
+      {props.items.map((item) => (
+        <div key={item.id} className="">
           <LinkListItem
-            url={item.url}
-            title={item.title}
+            data={item}
           ></LinkListItem>
         </div>
       ))}
-    </>
+    </div>
   )
 }
 
