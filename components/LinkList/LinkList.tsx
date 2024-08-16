@@ -10,7 +10,7 @@ const LinkListItem = (props: { data: TypeLinkListItem }) => {
     <a
       href={props.data.url}
       target="_blank"
-      className="inline-block w-full px-4 py-3 ring-1 hover:ring-0 ring-neutral-400/50 rounded-md hover:bg-gradient-to-r from-pink-400/50 to-indigo-600/50 text-2xl font-medium text-neutral-400 hover:text-neutral-100 decoration-neutral-500/40 underline-offset-4 opacity-50 transition duration-200 hover:scale-105 hover:text-transparent hover:opacity-100"
+      className="inline-block w-full px-4 py-3 ring-1 hover:ring-0 ring-neutral-400/50 rounded-md hover:bg-gradient-to-r from-pink-400/50 to-indigo-600/50 text-2xl font-medium text-neutral-400 hover:text-neutral-100 decoration-neutral-500/40 underline-offset-4 opacity-50 transition duration-200 hover:scale-105 hover:opacity-100"
     >
       {props.data.title}
     </a>
