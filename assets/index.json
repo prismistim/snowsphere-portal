@@ -146,6 +146,18 @@
       "isPrimary": false
     },
     {
+      "id": "mixi2",
+      "url": "https://mixi.social/@snosph",
+      "category": "social",
+      "tag": ["messaging"],
+      "title": "mixi2",
+      "rss": {
+        "hasRss": false,
+        "url": ""
+      },
+      "isPrimary": false
+    },
+    {
       "id": "ig",
       "url": "https://instagram.com/snowsphere",
       "category": "media",
