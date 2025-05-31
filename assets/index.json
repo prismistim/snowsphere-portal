@@ -32,6 +32,21 @@
       "isPrimary": true
     },
     {
+      "id": "moemoe_dev",
+      "url": "https://moemoe.dev/@snosph",
+      "category": "social", 
+      "tag": [
+        "fediverse",
+        "misskey"
+      ],
+      "title": "moemoe.dev",
+      "rss": {
+        "hasRss": false,
+        "url": ""
+      },
+      "isPrimary": true
+    },
+    {
       "id": "mstdn_jp",
       "url": "https://mstdn.jp/@snowsphere",
       "category": "social",
@@ -168,6 +183,18 @@
         "url": ""
       },
       "isPrimary": true
+    },
+    {
+      "id": "pixelfed_tyo",
+      "url": "https://pixelfed.tokyo/snowsphere",
+      "category": "media",
+      "tag": ["photo", "fediverse"],
+      "title": "Pixelfed.Tokyo",
+      "rss": {
+        "hasRss": false,
+        "url": ""
+      },
+      "isPrimary": false
     },
     {
       "id": "line",
