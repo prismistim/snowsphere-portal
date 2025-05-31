@@ -11,7 +11,7 @@ import '../../assets/style/index.css'
 
 import { ToastContext, useIsShow } from "../../hooks/isShowToast"
 import { ShareCardContext, useIsShow as useIsShowShareCard  } from "../../hooks/isShowShareCard"
-import indexJson from '../../assets/index.json'
+import indexJson from '../../assets/me.json'
 import { LinkListItem } from "../../types/link"
 
 const App: React.FC = () => {

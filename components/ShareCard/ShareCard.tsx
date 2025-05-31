@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import QRCode from 'react-qr-code'
 import { ShareCardContext } from '../../hooks/isShowShareCard'
 
-import indexJson from '../../assets/index.json'
+import indexJson from '../../assets/me.json'
 import IconImg from "../../assets/images/rb_icon_me_medium.png"
 import QRCodeImg from '../../assets/images/qrcode.png'
 

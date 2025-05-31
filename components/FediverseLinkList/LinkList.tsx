@@ -1,4 +1,4 @@
-import indexJson from "../../assets/index.json"
+import indexJson from "../../assets/me.json"
 import React, { useContext, useState } from "react"
 import { ToastContext } from "../../hooks/isShowToast"
 import { LinkListItem as TypeLinkListItem } from "../../types/link"
