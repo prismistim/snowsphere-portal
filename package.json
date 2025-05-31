@@ -4,42 +4,42 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vike dev",
     "copy:json": "node ./copyJson.js",
-    "build": "yarn copy:json && tsc && vite build",
-    "preview": "vite preview"
+    "build": "yarn copy:json && tsc && vike build",
+    "preview": "vike preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@typescript-eslint/eslint-plugin": "^7.12.0",
-    "@typescript-eslint/parser": "^7.12.0",
-    "@vite-plugin-vercel/vike": "^7.0.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^9.4.0",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "@vite-plugin-vercel/vike": "^9.0.5",
+    "@vitejs/plugin-react": "^4.5.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.28.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-react": "^7.34.2",
-    "postcss": "^8.4.38",
-    "prettier": "^3.3.1",
-    "prettier-plugin-tailwindcss": "^0.6.2",
-    "react-qr-code": "^2.0.14",
-    "sharp": "^0.33.4",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.4.5",
-    "vike": "^0.4.174",
-    "vike-react": "^0.4.13",
-    "vite": "^5.2.13",
+    "eslint-plugin-react": "^7.37.5",
+    "postcss": "^8.5.4",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.12",
+    "react-qr-code": "^2.0.15",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3",
+    "vike": "^0.4.231",
+    "vike-react": "^0.5.13",
+    "vite": "^6.3.5",
     "vite-plugin-image-optimizer": "^1.1.8",
-    "vite-plugin-vercel": "^7.0.0"
+    "vite-plugin-vercel": "^9.0.6"
   },
   "volta": {
     "node": "20.14.0",
     "yarn": "3.5.0"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@4.6.0"
 }
