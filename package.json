@@ -10,8 +10,8 @@
     "preview": "vike preview"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
     "@types/react": "^19.1.6",
@@ -36,10 +36,5 @@
     "vite": "^6.3.5",
     "vite-plugin-image-optimizer": "^1.1.8",
     "vite-plugin-vercel": "^9.0.6"
-  },
-  "volta": {
-    "node": "20.14.0",
-    "yarn": "3.5.0"
-  },
-  "packageManager": "yarn@4.6.0"
+  }
 }
